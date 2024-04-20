@@ -44,7 +44,7 @@ header{
 
 nav{
 
-    background-color:#a2d0e2;
+    background-color:#eeeeee;
 
     ul{
         display: flex;
@@ -67,14 +67,14 @@ nav{
         }
 
         a:hover{
-            color: white;
+            color: #34B5E6;
             transition: all 0.3s ease;
         }
     }
 }
   
 
-main{
+.main-pg1{
     width: 90%;
     margin: auto;
     
@@ -117,7 +117,7 @@ main{
 
     button{
         padding: 5px;
-        width: 300px;
+        width: 50%;
         font-size: 20px;
         border-radius: 30px;
         margin-bottom: 30px;
@@ -138,5 +138,5 @@ main{
 
 .cartoes p{
     text-align: left;
-    margin: 20px;
+    margin-right: 20px;
 }
