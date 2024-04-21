@@ -221,12 +221,15 @@ nav{
 
 /* estilização tela de cadastro */
 
+
 .container-cadastro{
     padding-top: 50px;
     width: 70%;
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+    
+    
 
 }
 
@@ -297,3 +300,68 @@ nav{
     }
 
 }
+
+/* estilização da pagina de participantes  */
+
+.main-participantes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+    
+    
+}
+
+.titulo-participante{
+    text-align: center;
+    font-size: 60px;
+   
+}
+
+.card-participantes{
+    
+    h2{
+        text-align: center;
+
+    }
+    
+   p{
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+    
+   } 
+
+   .icon-usuario{
+    width: 35px;
+    margin-top: 20px;
+    
+   }
+
+   .icon-usuario:hover{
+    transform: scale(1.3);
+    transition: all 0.9s ease;
+
+   }
+
+
+}
+
+.img-participantes{
+    border-radius: 50%;
+    background-color: #2196f3;
+    width: 250px;
+    margin: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.26);
+
+    
+}
+
+footer{
+    text-align: center;
+    font-size:32px ;
+    font-weight: bolder;
+    margin-top: 30px;
+}
+
