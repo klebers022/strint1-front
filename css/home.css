@@ -218,3 +218,82 @@ nav{
         transition: all 0.3s ease;
     }
 }
+
+/* estilização tela de cadastro */
+
+.container-cadastro{
+    padding-top: 50px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.text-cadastro{
+    background-color: black;
+    width: 45%;
+    text-align: center;
+    
+    img{
+        width: 200px;
+        margin-top: 30px;
+    }
+    p{
+        color: white;
+        padding: 8px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+}
+
+.input-cadastro{
+    text-align: center;
+    background-color: #34B5E6;
+    width: 55%;
+    color: white;
+
+    p{
+        
+        font-size: 30px;
+        margin-top: 20px;
+        padding: 40px;
+        display: inline-block;
+    }
+
+    #registro{
+        filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.26));
+        
+        
+    }
+
+    #login{
+        filter: blur(0.9px);
+    }
+
+    input{
+        display: block;
+        margin: auto;
+        width: 70%;
+        height: 40px;
+        margin-top: 30px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.26);
+        padding: 15px;
+
+    }
+
+    #idbotao{
+        background-color: #1a3b5c;
+        width: 50%;
+        border-radius: 50px;
+        color: white;
+        font-weight: bolder;
+        font-size: 19px;
+        margin-bottom: 30px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.26);
+        padding: 5px;
+    }
+
+}
