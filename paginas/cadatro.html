@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cadastro </title>
-    <link rel="stylesheet" href="/css/home.css">
-</head>
-<body>
-    <header> 
-        <img class="logo" src="/assets/logo-helpcar.png" width="100px" alt="Logo da help car">
-        <h1>HELP CAR</h1>
-        <button class="login"><a href="/paginas/cadatro.html">Login</a></button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cadastro</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/logo-helpcar.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/home.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="/assets/logo-helpcar.png"
+        width="100px"
+        alt="Logo da help car"
+      />
+      <h1>HELP CAR</h1>
+      <button class="login"><a href="/paginas/cadatro.html">Login</a></button>
     </header>
     <nav>
-        <ul>
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="/paginas/servicos.html">Serviços</a></li>
-            <li><a href="/paginas/participantes.html">Participantes</a></li>
-        </ul>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/paginas/servicos.html">Serviços</a></li>
+        <li><a href="/paginas/participantes.html">Participantes</a></li>
+      </ul>
     </nav>
 
     <main>
-        <div class="container-cadastro">
-            
-                <div class="text-cadastro">
-                    <img src="/assets/logo-helpcar.png" alt="">
-                    <p>Faça cadastro para ultilizar nossos serviços e ter uma melhor expêriencia</p>
-                </div>
-                <div class="input-cadastro">
-                    <p id="registro">registre-se</p>
-                    <p id="login">login</p>
-                
-                    <form action="../index.html" method="get">
-                
-                            <label for="idemail"></label>
-                            <input type="email" name="EMAIL" id="idemail" placeholder="E-MAIL" required>
-                            <label for="idnome"></label>
-                            <input type="text" name="NOME" id="idnome" placeholder="NOME" required>
-                            <label for="idsenha"></label>
-                            <input type="password" name="SENHA" id="idsenha" placeholder="SENHA" required>
-                            <input type="button" value="REGISTRAR" id="idbotao">
-                
-            
-
-                </form>
-
-
-            </div>
+      <div class="container-cadastro">
+        <div class="text-cadastro">
+          <img src="/assets/logo-helpcar.png" alt="" />
+          <p>
+            Faça cadastro para ultilizar nossos serviços e ter uma melhor
+            expêriencia
+          </p>
         </div>
+        <div class="input-cadastro">
+          <p id="registro">registre-se</p>
+          <p id="login">login</p>
+
+          <form action="../index.html" method="get">
+            <label for="idemail"></label>
+            <input
+              type="email"
+              name="EMAIL"
+              id="idemail"
+              placeholder="E-MAIL"
+              required
+            />
+            <label for="idnome"></label>
+            <input
+              type="text"
+              name="NOME"
+              id="idnome"
+              placeholder="NOME"
+              required
+            />
+            <label for="idsenha"></label>
+            <input
+              type="password"
+              name="SENHA"
+              id="idsenha"
+              placeholder="SENHA"
+              required
+            />
+            <input type="button" value="REGISTRAR" id="idbotao" />
+          </form>
+        </div>
+      </div>
     </main>
-</body>
+  </body>
 </html>
