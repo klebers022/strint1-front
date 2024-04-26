@@ -327,6 +327,11 @@ nav{
    
 }
 
+.h2-participante{
+    text-align: center;
+
+}
+
 .card-participantes h2{
         text-align: center;
     
@@ -365,10 +370,28 @@ nav{
     
 }
 
+
+
 footer{
+  background-color: #1a3b5c;
+  color: #999;
+    
+}
+
+footer ul  {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+.footer-participantes{
+    background-color: white;
     text-align: center;
-    font-size:32px ;
-    font-weight: bolder;
-    margin-top: 30px;
+}
+
+.footer-participantes img{
+    width: 200px;
+    
+    
 }
 
